@@ -12,13 +12,12 @@
 }
 
 ul {
-height: fit-content;
-width: fit-content;
-    list-style-type: none;
-    padding: 16px;
-    justify-content: center;
+    min-height: 0;
     display: flex;
+    list-style-type: none;
+    justify-content: center;
     background-color: aquamarine;
+    background-color: #7FFFD4;
     border-radius: 30px;
     box-sizing: border-box;
     flex-direction: row;
@@ -26,6 +25,10 @@ width: fit-content;
 }
 
 a {
+   text-decoration: none;
+   color: rgb(37, 37, 37);
+   font-size: 24px;
+} {
    text-decoration: none;
    color: rgb(37, 37, 37);
    font-size: 24px;
