@@ -13,23 +13,23 @@
 
 ul {
     min-height: 0;
-    display: flex;
+    width: fit-content;
     list-style-type: none;
     justify-content: center;
+    display: flex;
     background-color: aquamarine;
-    background-color: #7FFFD4;
     border-radius: 30px;
     box-sizing: border-box;
     flex-direction: row;
     padding: 4px;
-}
 
 a {
    text-decoration: none;
    color: rgb(37, 37, 37);
    font-size: 24px;
-} {
-   text-decoration: none;
-   color: rgb(37, 37, 37);
-   font-size: 24px;
+}
+
+a.:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
